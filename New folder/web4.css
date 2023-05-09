@@ -1,0 +1,134 @@
+    /* Global Styles */
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+      }
+      
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      
+      a {
+        color: #0077c2;
+        text-decoration: none;
+      }
+      
+      ul {
+        list-style: none;
+      }
+      
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      /* Header */
+      
+      header {
+        background-color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        position: sticky;
+        top: 0;
+        z-index: 999;
+      }
+      
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0;
+      }
+      
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      
+      nav ul {
+        display: flex;
+      }
+      
+      nav li {
+        margin-left: 20px;
+      }
+      
+      nav li:first-child {
+        margin-left: 0;
+      }
+      
+      nav a {
+        padding: 10px;
+      }
+      
+      nav a:hover {
+        background-color: #eee;
+      }
+      
+      /* Hero */
+      
+      .hero {
+        background-image: url('build.jpg');
+        background-size: 150px 0px;
+        background-position: center;
+        background-size: cover;
+        color: #fff;
+        height: 600px;
+        display: flex;
+        align-items: center;
+      }
+      
+      .hero h1 {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+      
+      .btn {
+        display: inline-block;
+        background-color: #0077c2;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin-top: 20px;
+      }
+      
+      .btn:hover {
+        background-color: #005ea3;
+      }
+      
+      
+      
+      
+      
+      /* Faculty */
+      
+      #faculty {
+        background-color: #fff;
+        padding: 80px 0;
+      }
+      
+      #faculty h2 {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      
+      .faculty {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      
+      .member {
+        width: calc(33.33% - 20px);
+        margin-bottom: 40px;
+        border-radius: 150px;
